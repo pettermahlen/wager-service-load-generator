@@ -1,6 +1,7 @@
 Hard-wired load generator for the wager service. To run from the command line, do:
 
 `mvn package`
+
 `java -jar target/wager-service-load-generator-1.0-SNAPSHOT.jar`
 
 For command line parameters, see the `Loader.parse(String[] args)` method.
